@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("// import './jquery.min';\n// import './popper.min';\n// import './bootstrap.min';\nconsole.log('project compiled successfully');\n\n//# sourceURL=webpack:///./src/js/main.js?");
+eval("console.log('project compiled successfully');\n\n//# sourceURL=webpack:///./src/js/main.js?");
 
 /***/ }),
 
