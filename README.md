@@ -14,7 +14,6 @@ It contains these folders :
 
 
 ## Included Framework and Libraries
-- `bootstrap` - Front End Framework 
 - `fontawesome` - Font Library
 
 
