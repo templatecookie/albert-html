@@ -2,7 +2,7 @@
 This repository contains Webpack and SCSS boilerplate code to quickly get started on building a webpage following a simplified version of the 7-1 pattern.
 
 ## SASS folder structure
-It contains these folders : 
+It contains these folder and files : 
 
 - `abstracts` : functions, variables
 - `base` : reset, typography,
@@ -30,18 +30,17 @@ It contains these folders :
 - Mini CSS Extractor Plugin
 
 
-### Installing
+## Project Setup
 
+### Installing
 - Run `npm install`
 
 ### Running the app
 
 Run `npm run dev`. Your browser should automatically open a new tab where you can see your app.
-
 *Note :* live reload is enabled so just modify your files and it will be reflected on the app instantly.
 
 ### Building the app
-
 Run `npm run build`. It will automatically add vendor prefixes to CSS rules and compress all your `.scss` files into one `style.css` file located in your `dist` folder.
 
 
