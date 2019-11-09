@@ -18,14 +18,16 @@ It contains these folders :
 
 
 ## Webpack Dependencies
-- Babel
-- CSS Loader
-- File Loader
-- Mini CSS Extractor Plugin
-- Node SASS
-- Purge CSS
-- SASS Loader
 - Webpack
+- Babel
+- File Loader
+- CSS Loader
+- Node SASS
+- SASS Loader
+- Post CSS 
+- Autoprefixer
+- Purge CSS
+- Mini CSS Extractor Plugin
 
 
 ### Installing
