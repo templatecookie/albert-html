@@ -19,7 +19,6 @@
     "css-loader": "^3.2.0",
     "file-loader": "^4.2.0",
     "mini-css-extract-plugin": "^0.8.0",
-    "node-sass": "^5.0.0",
     "postcss-loader": "^3.0.0",
     "purgecss-webpack-plugin": "^1.6.0",
     "sass-loader": "^8.0.0",
@@ -33,5 +32,8 @@
     "> 1%",
     "iOS 7",
     "last 3 iOS versions"
-  ]
+  ],
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
 }
