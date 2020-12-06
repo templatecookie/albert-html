@@ -3,7 +3,8 @@
 @import "abstracts/variables";
 
 // vendors
-// @import "vendors/fontawesome/css/fontawesome.min.css";
+@import "vendors/fontawesome/css/fontawesome.min.css";
+@import "vendors/bootstrap/scss/bootstrap.scss";
 
 @import "base/typography";
 @import "base/reset";
