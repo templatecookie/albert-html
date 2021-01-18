@@ -1,1 +1,3 @@
-console.log('project compiled successfully');
+var $ = require('jquery');
+window.$ = $;
+require('bootstrap');
