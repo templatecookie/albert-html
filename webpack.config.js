@@ -82,17 +82,15 @@ module.exports = {
         new MiniCssExtractPlugin({
             filename: '[name].css',
             chunkFilename: '[id].css',
-        }),
-        
-        new PurgecssPlugin({
-            paths: glob.sync(path.join(__dirname, '*.html'),  { nodir: true }),
-            
-        }),
+        })
     ],
 }
 
 if(process.env.NODE_ENV === 'production'){
     module.exports.plugins.push(
         new webpack.optimize.UglifyJsPlugin()
-    )
+    );
+    module.exports.plugins.push(
+        new webpack.optimize.PurgecssPlugin({ paths: glob.sync(path.join(__dirname, '*.html'),  { nodir: true }) })
+    );
 }
