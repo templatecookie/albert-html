@@ -8,12 +8,16 @@
     box-sizing: border-box;
     padding: 0 32px;
     transition: all 0.2s ease-in-out;
+    display: inline-block;
     &--primary { 
         background-color: $primary;
         color: $white;
         &:hover { 
             background-color: $secondary;
             color: $white;
+        }
+        svg{
+            margin-left: 9px;
         }
     }
     &--secondary { 
@@ -22,6 +26,9 @@
         background-color: $white;
         &:hover {
             border: 1px solid $gray_900;
+        }
+        svg{
+            margin-left: 9px;
         }
     }
 }

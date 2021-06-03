@@ -9141,19 +9141,24 @@ p {
           box-sizing: border-box;
   padding: 0 32px;
   -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out; }
+  transition: all 0.2s ease-in-out;
+  display: inline-block; }
   .btn--primary {
     background-color: #684FFF;
     color: #FFFFFF; }
     .btn--primary:hover {
       background-color: #5033FF;
       color: #FFFFFF; }
+    .btn--primary svg {
+      margin-left: 9px; }
   .btn--secondary {
     border: 1px solid #DFE3EB;
     color: #0A1931;
     background-color: #FFFFFF; }
     .btn--secondary:hover {
       border: 1px solid #0A1931; }
+    .btn--secondary svg {
+      margin-left: 9px; }
 
 .social {
   display: inline-block;
@@ -9194,4 +9199,187 @@ p {
     height: 80px;
     border-radius: 50%;
     background: rgba(104, 79, 255, 0.1); }
+
+.light-dot {
+  width: 64px;
+  height: 3px;
+  background-color: #684FFF;
+  opacity: 0.3;
+  border-radius: 50px;
+  position: absolute;
+  margin-top: 16px; }
+
+.deep-dot {
+  width: 80px;
+  height: 3px;
+  background: #684FFF;
+  border-radius: 3px;
+  margin-top: 16px;
+  position: absolute; }
+
+.service-content-area {
+  width: 312px;
+  height: 351px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(223, 227, 235, 0.4)), to(rgba(223, 227, 235, 0.4))), #FFFFFF;
+  background: linear-gradient(0deg, rgba(223, 227, 235, 0.4), rgba(223, 227, 235, 0.4)), #FFFFFF;
+  border-radius: 6px;
+  padding: 32px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  .service-content-area .layer-svg {
+    margin-bottom: 100px; }
+  .service-content-area p {
+    color: #0A1931;
+    margin-bottom: 0; }
+  .service-content-area:hover {
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 20px 48px rgba(10, 25, 49, 0.09);
+            box-shadow: 0px 20px 48px rgba(10, 25, 49, 0.09);
+    border-radius: 6px; }
+
+.right-arrow-icon {
+  position: relative;
+  margin-top: 30px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  text-decoration: none; }
+  .right-arrow-icon span {
+    display: none; }
+  .right-arrow-icon:hover span {
+    display: inline-block;
+    padding-right: 8px; }
+  .right-arrow-icon span {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-decoration: underline; }
+
+.project-work-image {
+  border-radius: 6px 6px 0px 0px; }
+  .project-work-image img {
+    width: 100%; }
+
+.project-work-text {
+  padding: 24px;
+  background: #FFFFFF;
+  border-radius: 0px 0px 8px 8px; }
+  .project-work-text h5, .project-work-text .h5 {
+    color: #0A1931;
+    margin-bottom: 16px; }
+  .project-work-text .right-arrow-icon {
+    margin-top: 0; }
+
+.gray-dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 40px;
+  background-color: #737D8C;
+  margin: 0 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.blog-area {
+  background: #FFFFFF;
+  border-radius: 8px;
+  padding: 24px; }
+  .blog-area-image {
+    margin-bottom: 24px; }
+    .blog-area-image img {
+      width: 100%; }
+  .blog-area-content .date-text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 8px; }
+    .blog-area-content .date-text .date,
+    .blog-area-content .date-text .time {
+      font-size: 14px;
+      font-weight: 400;
+      color: #737D8C; }
+  .blog-area-content h5, .blog-area-content .h5 {
+    margin-bottom: 0; }
+  .blog-area-content .right-arrow-icon {
+    margin-top: 20px; }
+  .blog-area:hover {
+    -webkit-box-shadow: 0px 20px 48px rgba(10, 25, 49, 0.09);
+            box-shadow: 0px 20px 48px rgba(10, 25, 49, 0.09);
+    border-radius: 8px;
+    background-color: #FFFFFF; }
+
+.social-img-icon .youtube {
+  width: 168px;
+  height: 120px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(223, 227, 235, 0.3)), to(rgba(223, 227, 235, 0.3))), #FFFFFF;
+  background: linear-gradient(0deg, rgba(223, 227, 235, 0.3), rgba(223, 227, 235, 0.3)), #FFFFFF;
+  border-radius: 8px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear; }
+  .social-img-icon .youtube:hover {
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 20px 48px rgba(10, 25, 49, 0.09);
+            box-shadow: 0px 20px 48px rgba(10, 25, 49, 0.09);
+    border-radius: 8px; }
+
+.testomonial-person-area {
+  width: 312px;
+  height: 100px;
+  padding: 24px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear; }
+  .testomonial-person-area:hover {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(223, 227, 235, 0.3)), to(rgba(223, 227, 235, 0.3))), #FFFFFF;
+    background: linear-gradient(0deg, rgba(223, 227, 235, 0.3), rgba(223, 227, 235, 0.3)), #FFFFFF;
+    border-radius: 4px; }
+  .testomonial-person-area .testomonial-person-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .testomonial-person-area .testomonial-person-content .person-img {
+      border-radius: 50%;
+      overflow: hidden;
+      margin-right: 16px; }
+    .testomonial-person-area .testomonial-person-content .person-text .name {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 28px;
+      color: #0A1931;
+      margin-bottom: 4px; }
+    .testomonial-person-area .testomonial-person-content .person-text .title-name {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      color: #737D8C; }
+      .testomonial-person-area .testomonial-person-content .person-text .title-name span {
+        color: #684FFF; }
 
