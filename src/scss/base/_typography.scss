@@ -1,8 +1,48 @@
-// Font Import
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+// Font Import 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
 
-$font: 'Open Sans', sans-serif;
+$font: 'Inter', sans-serif; 
 
-h1, h2, h3 {
-    font-weight: 700;
+.font-xl,
+.font-lg,
+.font-md,
+.font-sm,
+.font-xs,
+.font-mini{
+    font-weight: 400;
+}
+.font-xl{ 
+     font-size: 80px;
+     line-height: 98px;
+ }
+ .font-lg{
+     font-size: 56px;
+     line-height: 64px;
+ }
+ .font-md{
+    font-size: 48px;
+    line-height: 56px;
+}
+.font-sm{
+    font-size: 40px;
+    line-height: 48px;
+}
+.font-xs{
+    font-size: 32px;
+    line-height: 40px;
+} 
+.font-mini{
+    font-size: 24px;
+    line-height: 32px;
+}
+.para-1,
+.para-2{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: $gray_500;
+}
+.para-2{
+    font-size: 18px;
+    line-height: 28px;
 }

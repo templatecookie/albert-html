@@ -15,13 +15,13 @@ html {
 }
 
 body {
-    background-color: $bgColor;
+    // background-color: $bgColor;
     font-family: $font;
 }
 
 a {
     display: inline-block;
-    color: $lightBlack;
+    // color: $lightBlack;
     @include animate(.3s);
 }
 
@@ -35,5 +35,15 @@ p {
 }
 
 .color {
-    color: $color;
+    // color: $color;
+}
+
+
+.btn {
+    outline: 0;
+    border: 0;
+    &:focus {
+        
+        box-shadow: none;
+    }
 }
