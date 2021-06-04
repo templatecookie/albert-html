@@ -82,6 +82,10 @@
     text-decoration: none;
     span{
         display: none;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        text-transform: uppercase;
     }
     &:hover{
         span{
@@ -89,13 +93,7 @@
             padding-right: 8px;
         }
     }
-    span{
-        font-size: 16px;
-        font-weight: 600;
-        line-height: 24px;
-        text-transform: uppercase;
-        text-decoration: underline;
-    }
+   
 }
 
 // Project work
@@ -130,42 +128,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-// Blog
-.blog-area{
-    background: #FFFFFF;
-    border-radius: 8px;
-    padding: 24px;
-    &-image{
-        margin-bottom: 24px;
-        img{
-            width: 100%;
-        }
-    }
-    &-content{
-        .date-text{
-            display: flex;
-            align-items: center;
-            margin-bottom: 8px;
-            .date,
-            .time{
-                font-size: 14px;
-                font-weight: 400;
-                color: $gray_500;
-            }
-        }
-        h5{
-            margin-bottom: 0;
-        }
-        .right-arrow-icon{
-            margin-top: 20px;
-        }
-    }
-    &:hover{
-        box-shadow: 0px 20px 48px rgba(10, 25, 49, 0.09);
-        border-radius: 8px;
-        background-color: $white;
-    }
 }
 
 // Social img icon
@@ -222,6 +184,79 @@
                 span{
                     color: $primary ;
                 }
+            }
+        }
+    }
+}
+
+// Blog
+.blog-area{
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 24px;
+    &-image{
+        margin-bottom: 24px;
+        img{
+            width: 100%;
+        }
+    }
+    &-content{
+        .date-text{
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            .date,
+            .time{
+                font-size: 14px;
+                font-weight: 400;
+                color: $gray_500;
+            }
+        }
+        h5{
+            margin-bottom: 0;
+        }
+        .right-arrow-icon{
+            margin-top: 20px;
+        }
+    }
+    &:hover{
+        box-shadow: 0px 20px 48px rgba(10, 25, 49, 0.09);
+        border-radius: 8px;
+        background-color: $white;
+    }
+}
+.mini-blog{
+    width: 424px;
+    height: 152px;
+    border-radius: 4px;
+    padding: 24px;
+    &-text{
+        color: $gray_900;
+        margin-bottom: 20px;
+    }
+
+    .right-arrow-icon{
+       margin-top: 0;
+    }
+    &:hover{
+        background-color: $white;
+        background-color: gray;
+    }
+}
+// Footer 
+.footer{
+    background: $white;
+    &-text{
+        text-align: center;
+        padding: 32px 0;
+        h4{
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            color: $gray_500;
+            a{
+                color: $primary;
+                text-decoration: none;
             }
         }
     }
