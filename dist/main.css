@@ -9309,6 +9309,19 @@ p {
       .company-content .social-img-icon:last-child {
         margin-right: 0; }
 
+.blog {
+  padding: 100px 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(223, 227, 235, 0.5)), to(#FFFFFF)), #FFFFFF;
+  background: linear-gradient(180deg, rgba(223, 227, 235, 0.5) 0%, #FFFFFF 100%), #FFFFFF; }
+  .blog-area-content h3, .blog-area-content .h3 {
+    text-align: center;
+    color: #0A1931;
+    margin-bottom: 70px; }
+  .blog-area-content .mini-blog {
+    margin-bottom: 20px; }
+    .blog-area-content .mini-blog:last-child {
+      margin-bottom: 0; }
+
 .contact {
   padding: 100px 0;
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.7))), #DFE3EB;
@@ -9673,8 +9686,7 @@ p {
   .mini-blog .right-arrow-icon {
     margin-top: 0; }
   .mini-blog:hover {
-    background-color: #FFFFFF;
-    background-color: gray; }
+    background-color: #FFFFFF; }
 
 .footer {
   background: #FFFFFF; }
