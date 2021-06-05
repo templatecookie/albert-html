@@ -1,0 +1,102 @@
+.contact{
+    padding: 100px 0;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), #DFE3EB;
+    position: relative;
+    &-area-info{
+        padding: 48px;
+        background-color: $white;
+        border-radius:8px;
+        box-shadow: 0px 12px 24px rgba(10, 25, 49, 0.02);
+        h3{
+            color: $gray_900;
+            margin-bottom: 24px;
+            max-width: 279px;
+        }
+        .contact-form{
+            form{
+                .top-input{
+                    display: flex;
+                    input{
+                        &:last-child{
+                            margin-left: 16px;
+                        }
+                    }
+                }
+                input{
+                    padding: 14px 0 14px 20px;
+                    width: 100%;
+                    margin-bottom: 16px;
+                    background-color: $white;
+                    border: 1px solid #DFE3EB;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                    text-transform: capitalize;
+                }
+                textarea{
+                    padding: 14px 0 0 20px;
+                    margin-bottom: 32px;
+                    text-transform: capitalize;
+                    width: 100%;
+                    height: 152px;
+                    border: 1px solid #DFE3EB;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                }
+            }
+        }
+    }
+    &-area-location{
+        padding: 48px 0 57px 48px;
+        background-color: $white;
+        border-radius: 8px;
+        box-shadow: 0px 12px 24px rgba(10, 25, 49, 0.02);
+        h3{
+            color: $gray_900;
+            margin-bottom: 24px;
+        }
+        .contact-location-icon{
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+            .location-text{
+                margin-left: 16px;
+                span{
+                    color: $gray_900;
+                }
+                p{
+                    color: $gray_900;
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .bottom-social-icon{
+            display: flex;
+            align-items: center;
+            .social{
+                margin-right: 12px;
+                &:last-child{
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    .round-shape{
+        position: absolute;
+        bottom: 53px;
+        right: 180px;
+        opacity: 0.5;
+        
+    }
+    .lg-round-shape{
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.5;
+        background: #DFE3EB;
+    }
+    .black-dot{
+        position: absolute;
+        top: 67px;
+        right: 227px;
+    }
+}

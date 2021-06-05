@@ -1,0 +1,30 @@
+.header {
+     &-content{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 28px 0;
+         .logo{
+
+         }
+         &-text{
+             ul{
+                 display: flex;
+                 padding: 0;
+                 margin: 0;
+                 li{
+                     margin-right: 40px;
+                     a{
+                         font-size: 14px;
+                         font-weight: 500;
+                         line-height: 40px;
+                         text-transform: uppercase;
+                         letter-spacing: 0.04em;
+                         color: $gray_900;
+                         text-decoration: none;
+                     }
+                 }
+             }
+         }
+     }
+}

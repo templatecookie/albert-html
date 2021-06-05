@@ -1,0 +1,52 @@
+.banner{
+    position: relative;
+    &-content{
+        display: flex;
+        &-left{
+            
+            h3{
+                color: $gray_900;
+                margin-bottom: 0;
+                span{
+                    color: $primary;                  
+                }              
+            }
+            p{
+                margin: 32px 0;
+            }
+            .btn--primary{
+                margin-right: 16px;
+            }
+            .follow-content{
+                margin-top: 200px;
+                // align-self: flex-end;
+                span{
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    color: $gray_900;
+                }
+                &-social{
+                    display: flex;
+                    margin-top: 12px;
+                    margin-bottom: 48px;
+                    .social-square{
+                        margin-right: 12px;
+                        &:last-child{
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+        &-right{
+            background-color: $gray_100;
+            .dot-shadow-img{
+                position: absolute;
+                top: 20%;
+                right: 20%;
+
+            }
+        }
+    }
+}
