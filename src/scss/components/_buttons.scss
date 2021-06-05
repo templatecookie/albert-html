@@ -47,6 +47,7 @@
         &:hover{
             background-color: $primary;
             color: $white; 
+            border-color: $primary;
         } 
     }
     &-sm-round {
@@ -57,6 +58,7 @@
         &:hover{
             background-color: $primary;
             color: $white; 
+            border-color: $primary;
         } 
     } 
     &-lg-round{

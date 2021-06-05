@@ -9474,7 +9474,8 @@ p {
     border-radius: 3px; }
     .social-square:hover {
       background-color: #684FFF;
-      color: #FFFFFF; }
+      color: #FFFFFF;
+      border-color: #684FFF; }
   .social-sm-round {
     width: 60px;
     height: 60px;
@@ -9482,7 +9483,8 @@ p {
     border-radius: 33px; }
     .social-sm-round:hover {
       background-color: #684FFF;
-      color: #FFFFFF; }
+      color: #FFFFFF;
+      border-color: #684FFF; }
   .social-lg-round {
     width: 80px;
     height: 80px;
