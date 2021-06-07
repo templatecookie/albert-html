@@ -2,6 +2,8 @@
     padding: 100px 0;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), #DFE3EB;
     position: relative;
+    z-index: 1;
+    overflow: hidden;
     &-area-info{
         padding: 48px;
         background-color: $white;
@@ -85,18 +87,21 @@
         bottom: 53px;
         right: 180px;
         opacity: 0.5;
-        
+        z-index: -1;
+        pointer-events: none; 
     }
     .lg-round-shape{
         position: absolute;
-        top: 0;
+        top: -285px;
         left: 0;
         opacity: 0.5;
-        background: #DFE3EB;
+        z-index: -2;
+        pointer-events:none;
     }
     .black-dot{
         position: absolute;
         top: 67px;
         right: 227px;
+        pointer-events:none;
     }
 }

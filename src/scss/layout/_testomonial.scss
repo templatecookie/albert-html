@@ -1,0 +1,37 @@
+.testomonial{
+    padding: 100px 0;
+    position: relative;
+    &-content{
+        h3{
+            text-align: center;
+            color: $gray_900;
+            margin-bottom: 70px;
+        }
+        &-right{
+            background: linear-gradient(0deg, rgba(223, 227, 235, 0.3), rgba(223, 227, 235, 0.3)), #FFFFFF;
+            padding: 50px;
+            .rating-area{
+                display: flex;
+                align-items: center;
+                margin-bottom: 26px;
+                span{
+                    color: $gray_900;
+                    margin-left: 8px;
+                }
+            }
+            h4{
+                font-size: 32px;
+                font-weight: 400;
+                line-height: 50px;
+                color: $gray_900;
+
+            }
+
+        }
+        .testomonial-shape{
+            position: absolute;
+            top: 240px;
+            right: 330px;
+        }
+    }
+}

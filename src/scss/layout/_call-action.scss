@@ -1,0 +1,46 @@
+.call-action{
+    position: relative;
+    overflow: hidden;
+    &-content{
+        background-color: $gray_900;
+        border-radius: 8px;
+        padding: 64px 0;
+        text-align: center;
+        h4{
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 48px;
+            color: $white;
+            text-transform: capitalize;
+            margin-bottom: 0;
+          &:nth-child(2) {
+             margin-bottom: 32px;
+          }
+        }
+        .call-ac-shape-1{
+            position: absolute;
+            top: 26px;
+            right: 415px;
+            pointer-events: none;
+        }
+        .call-ac-dot-1{
+            position: absolute;
+            top: 64px;
+            left: 425px;
+            pointer-events: none;
+        }
+        .call-ac-dot-2{
+            position: absolute;
+            bottom: 25px;
+            right: 550px;
+            pointer-events: none;
+            transform:rotate(90deg);
+        }
+        .call-ac-shape-2{
+            position: absolute;
+            bottom: 0;
+            left: 305px;
+            pointer-events: none;
+        }
+    }
+}
