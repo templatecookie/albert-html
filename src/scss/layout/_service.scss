@@ -5,4 +5,31 @@
         margin-bottom: 70px;
         text-transform: capitalize;
     }
+    &-content{
+        display: flex;
+    }
+}
+
+
+// Responsive
+@media (min-width: 1024px) and (max-width: 1199px){
+  
+}
+@media (min-width: 992px) and (max-width: 1023px){
+  
+}
+@media (min-width: 768px) and (max-width: 991px){
+  .service-content-area{
+      margin-bottom: 20px;
+  }
+}
+@media (min-width: 575px) and (max-width: 767px){
+    .service-content-area{
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 320px) and (max-width: 574px){
+    .service-content-area{
+        margin-bottom: 20px;
+    }
 }

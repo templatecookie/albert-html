@@ -52,6 +52,7 @@
         background-color: $white;
         border-radius: 8px;
         box-shadow: 0px 12px 24px rgba(10, 25, 49, 0.02);
+        position: relative;
         h3{
             color: $gray_900;
             margin-bottom: 24px;
@@ -100,8 +101,96 @@
     }
     .black-dot{
         position: absolute;
-        top: 67px;
-        right: 227px;
+        top: -35px;
+        right: -35px;
         pointer-events:none;
+    }
+}
+
+
+// Responsive 
+@media (min-width:1024px) and (max-width: 1200px){
+
+}
+@media (min-width: 992px) and (max-width: 1023px){
+   
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .contact-area-info{
+        margin-bottom: 20px;
+        .contact-form{
+            text-align: center;
+            form{
+                .top-input{
+                    display: inline-block;
+                    width: 100%;
+                    input:last-child{
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+    .contact-area-location{
+        .black-dot{
+            top: 0;
+            right: 0;
+        }
+    }
+}
+@media (min-width: 575px) and (max-width: 767px){
+    .contact-area-info{
+        margin-bottom: 20px;
+        .contact-form{
+            text-align: center;
+            form{
+                .top-input{
+                    display: inline-block;
+                    width: 100%;
+                    input:last-child{
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+    .contact-area-location{
+        .black-dot{
+            top: 0;
+            right: 0;
+        }
+    }
+}
+@media (max-width: 574px){
+    .contact{
+        padding: 50px 0;
+        .contact-area-info{
+            margin-bottom: 20px;
+            padding: 10px;
+            .contact-form{
+                text-align: center;
+                form{
+                    .top-input{
+                        display: inline-block;
+                        width: 100%;
+                        input:last-child{
+                            margin-left: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .contact-area-location{
+            padding: 10px;
+            .black-dot{
+                top: 0;
+                right: 0;
+            }
+            .bottom-social-icon{
+                .social{
+                    margin-right: 5px;
+                }
+            }
+        }
     }
 }

@@ -1,10 +1,12 @@
 .company{
     padding: 100px 0;
+    overflow: hidden;
     &-content{
         display: flex;
+        // flex-wrap: wrap;
         h3{
             max-width: 312px;
-            margin-right: 65px;
+            // margin-right: 65px;
             span{
                 color: $primary;
             }
@@ -15,5 +17,32 @@
                 margin-right: 0;
             }
         }
+        &-social-activity{
+            display: flex;
+        }
     }
+}
+
+// Responsive 
+@media (min-width:1024px) and (max-width: 1200px){
+    .company{
+        &-content{
+            &-social-activity{
+                // flex-wrap: wrap;
+               
+            }
+        }
+    }
+}
+@media (min-width: 992px) and (max-width: 1023px){
+    
+}
+@media (min-width: 768px) and (max-width: 991px){
+    
+}
+@media (min-width: 575px) and (max-width: 767px){
+    
+}
+@media (max-width: 574px){
+    
 }

@@ -19,28 +19,115 @@
         }
         .call-ac-shape-1{
             position: absolute;
-            top: 26px;
-            right: 415px;
+            top: 10%;
+            right: 20%;
             pointer-events: none;
         }
         .call-ac-dot-1{
             position: absolute;
-            top: 64px;
-            left: 425px;
+            top: 20%;
+            left: 22%;
             pointer-events: none;
         }
         .call-ac-dot-2{
             position: absolute;
-            bottom: 25px;
-            right: 550px;
+            bottom: 10%;
+            right: 30%;
             pointer-events: none;
             transform:rotate(90deg);
         }
         .call-ac-shape-2{
             position: absolute;
             bottom: 0;
-            left: 305px;
+            left: 16% ;
             pointer-events: none;
+        }
+    }
+}
+
+// Responsive
+@media (min-width: 1024px) and (max-width: 1200px){
+    .call-action-content{
+        .call-ac-shape-1{
+            right: 10%;
+        }
+        .call-ac-dot-1{
+            left: 11%;
+        }
+        .call-ac-dot-2{
+            right: 20%;
+        }
+        .call-ac-shape-2{
+            left: 0;
+        }
+    }
+}
+@media (min-width: 992px) and (max-width: 1023px){
+    .call-action-content{
+        .call-ac-shape-1{
+            right: 10%;
+        }
+        .call-ac-dot-1{
+            left: 11%;
+        }
+        .call-ac-dot-2{
+            right: 20%;
+        }
+        .call-ac-shape-2{
+            left: 0;
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .call-action-content{
+        .call-ac-shape-1{
+            top: 5%;
+            right: 15%;
+        }
+        .call-ac-dot-1{
+            left: 16%;
+        }
+        .call-ac-dot-2{
+            right: 20%;
+        }
+        .call-ac-shape-2{
+            left: 0;
+        }
+    }
+}
+@media (min-width: 575px) and (max-width: 767px){
+    .call-action-content{
+        h4{
+            font-size: 28px;
+        }
+        .call-ac-dot-2{
+            display: none;
+        }
+        .call-ac-shape-2{
+            left: 5%;
+        }
+    }
+}
+@media (min-width: 320px) and (max-width: 574px){
+    .call-action-content{
+        h4{
+            font-size: 18px;
+        }
+        a{
+            font-size: 15px;
+            font-weight: 500;
+        }
+        .call-ac-shape-1{
+            display: none;
+        }
+        .call-ac-dot-1{
+            display: none;
+        }
+        .call-ac-dot-2{
+            display: none;
+        }
+        .call-ac-shape-2{
+            display: none;
         }
     }
 }

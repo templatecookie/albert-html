@@ -18,8 +18,7 @@
     transform: translateX(-50%);
 }
 .service-content-area{
-    width: 312px;
-    height: 351px;
+    width: 100%;
     background: linear-gradient(0deg, rgba(223, 227, 235, 0.4), rgba(223, 227, 235, 0.4)), #FFFFFF;
     border-radius: 6px;
     padding: 32px;
@@ -118,8 +117,7 @@
 
 // Testomonial person area
 .testomonial-person-area{
-    width: 312px;
-    height: 100px;
+    width: 100%;
     padding: 24px;
     background: #FFFFFF;
     border-radius: 4px;
@@ -193,13 +191,12 @@
     }
 }
 .mini-blog{
-    width: 424px;
-    height: 152px;
     border-radius: 4px;
     padding: 24px;
     &-text{
         color: $gray_900;
         margin-bottom: 20px;
+        max-width: 376px;
     }
 
     .right-arrow-icon{
@@ -226,4 +223,21 @@
             }
         }
     }
+}
+
+// Responsive 
+@media (min-width:1024px) and (max-width: 1200px){
+
+}
+@media (min-width: 992px) and (max-width: 1023px){
+    
+}
+@media (min-width: 768px) and (max-width: 991px){
+    
+}
+@media (min-width: 575px) and (max-width: 767px){
+    
+}
+@media (max-width: 574px){
+    
 }

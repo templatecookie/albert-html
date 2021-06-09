@@ -1,15 +1,24 @@
 .testomonial{
     padding: 100px 0;
-    position: relative;
     &-content{
         h3{
             text-align: center;
             color: $gray_900;
             margin-bottom: 70px;
         }
+        &-left{
+            .testomonial-person-area {
+                margin-bottom: 10px;
+                &:nth-last-child(1 ){
+                    margin-bottom: 0px;
+                }
+            }
+        }
         &-right{
             background: linear-gradient(0deg, rgba(223, 227, 235, 0.3), rgba(223, 227, 235, 0.3)), #FFFFFF;
             padding: 50px;
+            position: relative;
+            z-index: 1;
             .rating-area{
                 display: flex;
                 align-items: center;
@@ -30,8 +39,89 @@
         }
         .testomonial-shape{
             position: absolute;
-            top: 240px;
-            right: 330px;
+            top: 24px;
+            right: 24px;
+            z-index: -2;
+        }
+    }
+}
+
+// Responsive 
+@media (min-width:1024px) and (max-width: 1200px){
+    .testomonial-content{
+        .testomonial-shape{
+            position: absolute;
+            top: 24px;
+            right: 24px;
+        }
+    }
+}
+@media (min-width: 992px) and (max-width: 1023px){
+    .testomonial-content{
+        .testomonial-shape{
+            position: absolute;
+            top: 24px;
+            right: 24px;
+        }
+        &-right{
+            h4{
+                font-size: 24px;
+                line-height: 40px;
+            }
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .testomonial{
+        &-content{
+
+            &-left{
+                display: flex;
+                flex-wrap: wrap;
+                .testomonial-person-area{
+                    width: 50%;
+                     
+                    &:nth-last-child(2) { 
+                        margin-bottom: 0px;
+                    }
+                }
+            
+            }
+            &-right{
+                margin-top: 20px;
+                h4{
+                    font-size: 24px;
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+
+}
+@media (min-width: 575px) and (max-width: 767px){
+    .testomonial{
+        &-content{
+            &-right{
+                margin-top: 20px;
+                h4{
+                    font-size: 24px;
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 574px){
+    .testomonial{
+        padding: 50px 0;
+        &-content{
+            &-right{
+                margin-top: 20px;
+                h4{
+                    font-size: 18px;
+                    line-height: 36px;
+                }
+            }
         }
     }
 }
