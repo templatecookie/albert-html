@@ -101,6 +101,7 @@
     .youtube{
     width: 168px;
     height: 120px;
+    // padding: 50px 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -238,6 +239,9 @@
 @media (min-width: 575px) and (max-width: 767px){
     
 }
-@media (max-width: 574px){
+@media (min-width: 420px) and (max-width: 574px){
     
+}
+@media (max-width: 420px){
+
 }

@@ -161,7 +161,7 @@
         }
     }
 }
-@media (max-width: 574px){
+@media (min-width: 420px) and (max-width: 574px){
     .contact{
         padding: 50px 0;
         .contact-area-info{
@@ -189,6 +189,71 @@
             .bottom-social-icon{
                 .social{
                     margin-right: 5px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 420px){
+    .contact{
+        padding: 50px 0;
+        .contact-area-info{
+            margin-bottom: 20px;
+            padding: 10px;
+            h3{
+                font-size: 30px;
+                line-height: 40px;
+            }
+            .contact-form{
+                text-align: center;
+                form{
+                    .top-input{
+                        display: inline-block;
+                        width: 100%;
+                        input:last-child{
+                            margin-left: 0;
+                        }
+                    }
+                    .btn--primary{
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+        .contact-area-location{
+            padding: 10px;
+            .black-dot{
+               display: none;
+            }
+            .contact-location-icon{
+                .social-lg-round{
+
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+            .bottom-social-icon{
+                flex-wrap: wrap;
+                .social{
+                    margin-right: 5px;
+                    margin-bottom: 10px;
+                   
+                    // .social-sm-round{
+                    //    &:nth-last-child(2){
+                    //        margin-bottom: 10px;
+                    //    }
+                    // }
+                }
+            }
+            .contact-location-icon{
+                .location-text{
+                    span{
+                        font-size: 12px;
+                    }
+                    p{
+                        font-size: 12px;
+                    }
                 }
             }
         }

@@ -1,5 +1,4 @@
 .banner{
-    position: relative;
     &-content{
         display: flex;
         &-left{
@@ -50,11 +49,121 @@
             }
         }
         &-right{
+            position: relative;
             .dot-shadow-img{
                 position: absolute;
                 top: 20%;
                 right: 20%;
 
+            }
+        }
+    }
+}
+
+// Responsive 
+@media (min-width: 992px) and (max-width: 1200px){
+    .banner{
+        &-content{
+            &-left{
+                h3{
+                    font-size: 50px;
+                    line-height: 60px;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .banner{
+        &-content{
+            &-left{
+                margin-bottom: 100px;
+                h3{
+                    font-size: 62px;
+                    line-height: 70px;
+                }
+                .follow-content{
+                    margin-top: 50px;
+                }
+            }
+            &-right{
+                .dot-shadow-img{
+                    top: 30%;
+                    right: 10%;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 575px) and (max-width: 767px){
+    .banner{
+        margin-bottom: 50px;
+        &-content{
+            &-left{
+                margin-bottom: 100px;
+                h3{
+                    font-size: 50px;
+                    line-height: 60px;
+                }
+                .follow-content{
+                    margin-top: 50px;
+                }
+            }
+            &-right{
+                .dot-shadow-img{
+                    top: 24%;
+                    right: 10%;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 420px) and (max-width: 574px){
+    .banner{
+        margin-bottom: 50px;
+        &-content{
+            &-left{
+                margin-bottom: 100px;
+                h3{
+                    font-size: 45px;
+                    line-height: 60px;
+                }
+                .follow-content{
+                    margin-top: 50px;
+                }
+            }
+            &-right{
+                .dot-shadow-img{
+                    right: 8%;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 420px){
+    .banner{
+        margin-bottom: 50px;
+        &-content{
+            &-left{
+                margin-bottom: 100px;
+                h3{
+                    font-size: 35px;
+                    line-height: 50px;
+                }
+                .follow-content{
+                    margin-top: 50px;
+                }
+                .btn--primary{
+                    margin-bottom: 15px;
+                }
+                .btn--secondary{
+                    margin-bottom: 15px;
+                }
+            }
+            &-right{
+                .dot-shadow-img{
+                    right: 0;
+                }
             }
         }
     }

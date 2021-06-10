@@ -24,20 +24,20 @@
                 pointer-events: none;
                 overflow: hidden;
             }
-            .lg-round-shape{
-                position: absolute;
-                top: -30%;
-                left: -2%;
-                opacity: 0.5;
-                z-index: -1;
-                pointer-events: none;
-            }
             .about-white-shadow{
                 position: absolute;
                 top: 32px;
                 left: 32px;
                 border-radius:10px;
                 z-index: -3;
+            }
+            .lg-round-shape{
+                position: absolute;
+                top: -70%;
+                left: -70%;
+                opacity: 0.5;
+                z-index: -1;
+                pointer-events: none;
             }
         }
         &-right{
@@ -81,17 +81,52 @@
 }
 
 // Responsive 
-@media (min-width:1024px) and (max-width: 1200px){
-
-}
-@media (min-width: 992px) and (max-width: 1023px){
-    
+@media (min-width: 992px) and (max-width: 1200px){
+    .about{
+        &-content{
+            &-left{
+                .lg-round-shape{
+                    top: -30%;
+                    left: -40%;
+                }
+                .about-black-dot{
+                    top: -30px;
+                    left: 5%;
+                    transform: rotate(
+                       90deg
+                        );
+                }
+                .about-white-shadow{
+                    top: -30px;
+                    left: 0;
+                }
+            }
+            &-right{
+                .project-document{
+                    margin: 15px 0;
+                    h2{
+                        font-size: 40px;
+                    }
+                }
+                .project-year{
+                    margin-right: 25px;
+                }
+            }
+        }
+    }
 }
 @media (min-width: 768px) and (max-width: 991px){
     .about{
         &-content{
             &-left{
                 margin-bottom: 60px;
+                .about-black-dot{
+                    top: -30px;
+                    left: 5%;
+                    transform: rotate(
+                       90deg
+                        );
+                }
             }
         }
     }
@@ -100,21 +135,96 @@
     .about{
         &-content{
             &-left{
-                margin-bottom: 60px;
-            }
-        }
-    }
-}
-@media (max-width: 574px){
-    .about{
-        &-content{
-            &-left{
-                margin-bottom: 60px;
+                margin-bottom: 50px;
+                .about-black-dot{
+                    top: -30px;
+                    left: 5%;
+                    transform: rotate( 90deg);
+                }
+                .about-white-shadow{
+                    top: -30px;
+                    left: 0;
+                }
             }
             &-right{
                 h3{
                     font-size: 30px;
                     line-height: 40px;
+                }
+                .project-document{
+                    h2{
+                        font-size: 40px;
+                        line-height: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 420px) and (max-width: 574px){
+    .about{
+        &-content{
+            &-left{
+                margin-bottom: 50px;
+                .about-black-dot{
+                    display: none;
+                }
+                .about-white-shadow{
+                    display: none;
+                }
+                .lg-round-shape{
+                    display: none;
+                }
+            }
+            &-right{
+                h3{
+                    font-size: 30px;
+                    line-height: 40px;
+                }
+                .project-document{
+                    h2{
+                        font-size: 40px;
+                        line-height: 50px;
+                        margin-right: 10px;
+                    }
+                    .project-year{
+                        margin-right: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 420px){
+    .about{
+        &-content{
+            &-left{
+                margin-bottom: 50px;
+                .about-black-dot{
+                    display: none;
+                }
+                .about-white-shadow{
+                    display: none;
+                }
+                .lg-round-shape{
+                    display: none;
+                }
+            }
+            &-right{
+                h3{
+                    font-size: 30px;
+                    line-height: 40px;
+                }
+                .project-document{
+                    display: inline-block;
+                    h2{
+                        font-size: 40px;
+                        line-height: 50px;
+
+                    }
+                    .project-year{
+                        margin-bottom: 20px;
+                    }
                 }
             }
         }
