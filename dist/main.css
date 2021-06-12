@@ -9348,7 +9348,7 @@ p {
       position: relative;
       z-index: 1; }
       .about-content-left .about-img {
-        max-width: 100%; }
+        border-radius: 10px; }
       .about-content-left .about-black-dot {
         position: absolute;
         top: 93px;
