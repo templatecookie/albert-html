@@ -9322,12 +9322,10 @@ p {
       .banner-content-left h3, .banner-content-left .h3 {
         font-size: 35px;
         line-height: 50px; }
+      .banner-content-left .btn {
+        padding: 0 25px; }
       .banner-content-left .follow-content {
         margin-top: 50px; }
-      .banner-content-left .btn--primary {
-        margin-bottom: 15px; }
-      .banner-content-left .btn--secondary {
-        margin-bottom: 15px; }
     .banner-content-right .dot-shadow-img {
       right: 0; } }
 
