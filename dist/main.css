@@ -10136,6 +10136,12 @@ p {
         .contact .contact-area-location .bottom-social-icon .social {
           margin-right: 5px;
           margin-bottom: 10px; }
+          .contact .contact-area-location .bottom-social-icon .social-sm-round {
+            margin-right: 0;
+            border-radius: 0px;
+            width: 40px;
+            height: 40px;
+            margin-bottom: 0; }
       .contact .contact-area-location .contact-location-icon .location-text {
         margin-left: 0px;
         margin-top: 20px; }

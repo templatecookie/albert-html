@@ -213,6 +213,13 @@
                 .social{
                     margin-right: 5px;
                     margin-bottom: 10px;
+                    &-sm-round{
+                        margin-right: 0;
+                        border-radius: 0px;
+                        width: 40px;
+                        height: 40px;
+                        margin-bottom: 0;
+                    }
                 }
             }
             .contact-location-icon{
