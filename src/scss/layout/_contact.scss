@@ -12,7 +12,6 @@
         h3{
             color: $gray_900;
             margin-bottom: 24px;
-            max-width: 279px;
         }
         .contact-form{
             form{
@@ -36,7 +35,7 @@
                 }
                 textarea{
                     padding: 14px 0 0 20px;
-                    margin-bottom: 32px;
+                    margin-bottom: 20px;
                     text-transform: capitalize;
                     width: 100%;
                     height: 152px;
@@ -48,7 +47,7 @@
         }
     }
     &-area-location{
-        padding: 48px 0 57px 48px;
+        padding: 48px;
         background-color: $white;
         border-radius: 8px;
         box-shadow: 0px 12px 24px rgba(10, 25, 49, 0.02);
@@ -161,48 +160,16 @@
         }
     }
 }
-@media (min-width: 420px) and (max-width: 574px){
+@media (max-width: 574px){
     .contact{
         padding: 50px 0;
         .contact-area-info{
             margin-bottom: 20px;
-            padding: 10px;
-            .contact-form{
-                text-align: center;
-                form{
-                    .top-input{
-                        display: inline-block;
-                        width: 100%;
-                        input:last-child{
-                            margin-left: 0;
-                        }
-                    }
-                }
-            }
-        }
-        .contact-area-location{
-            padding: 10px;
-            .black-dot{
-                top: 0;
-                right: 0;
-            }
-            .bottom-social-icon{
-                .social{
-                    margin-right: 5px;
-                }
-            }
-        }
-    }
-}
-@media (max-width: 420px){
-    .contact{
-        padding: 50px 0;
-        .contact-area-info{
-            margin-bottom: 20px;
-            padding: 10px;
+            padding: 24px;
             h3{
                 font-size: 30px;
                 line-height: 40px;
+                text-align: center;
             }
             .contact-form{
                 text-align: center;
@@ -222,11 +189,18 @@
             }
         }
         .contact-area-location{
-            padding: 10px;
+            padding: 24px;
+            h3{
+                font-size: 30px;
+                line-height: 40px;
+                text-align: center;
+            }
             .black-dot{
                display: none;
             }
             .contact-location-icon{
+                display: flex;
+                flex-direction: column;
                 .social-lg-round{
 
                     width: 60px;
@@ -235,24 +209,21 @@
             }
             .bottom-social-icon{
                 flex-wrap: wrap;
+                justify-content: center;
                 .social{
                     margin-right: 5px;
                     margin-bottom: 10px;
-                   
-                    // .social-sm-round{
-                    //    &:nth-last-child(2){
-                    //        margin-bottom: 10px;
-                    //    }
-                    // }
                 }
             }
             .contact-location-icon{
                 .location-text{
+                    margin-left: 0px;
+                    margin-top: 20px;
                     span{
-                        font-size: 12px;
+                        font-size: 16px;
                     }
                     p{
-                        font-size: 12px;
+                        font-size: 16px;
                     }
                 }
             }

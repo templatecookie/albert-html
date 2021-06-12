@@ -33,10 +33,7 @@
 
 
 // Responsive 
-@media (min-width:1024px) and (max-width: 1200px){
-
-}
-@media (min-width: 992px) and (max-width: 1023px){
+@media (min-width: 992px) and (max-width: 1200px){
     
 }
 @media (min-width: 768px) and (max-width: 991px){
@@ -54,6 +51,23 @@
         padding: 50px 0;
         .blog-area{
             margin-bottom: 20px;
+            &-content{
+                h3{
+                    font-size: 32px;
+                    line-height: 42px;
+                    margin-bottom: 50px;
+                }
+                h5{
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+            }
+        }
+        .mini-blog{
+            &-text{
+                font-size: 18px;
+                line-height: 28px;
+            }
         }
     }
 }

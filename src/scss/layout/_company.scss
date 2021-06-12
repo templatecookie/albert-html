@@ -89,8 +89,9 @@
         }
     }
 }
-@media (min-width: 420px) and (max-width: 574px){
+@media (max-width: 574px){
     .company{
+        padding: 50px 0;
         &-content{
             &-text{
                 display: flex;
@@ -99,32 +100,7 @@
                 h3{
                 
                     text-align: center;
-                    font-size: 29px;
-                    margin-bottom: 30px;
-                }
-            }
-        
-            &-social-activity{
-                justify-content: center;
-                 margin-left: 0;
-                .social-img-icon{
-                    margin-right: 12px;
-                }
-            }
-        }
-    }
-}
-@media (max-width: 420px){
-    .company{
-        &-content{
-            &-text{
-                display: flex;
-                justify-content: center;
-                align-items:center;
-                h3{
-                
-                    text-align: center;
-                    font-size: 29px;
+                    font-size: 20px;
                     margin-bottom: 30px;
                 }
             }

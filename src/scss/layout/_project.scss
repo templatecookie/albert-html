@@ -40,17 +40,15 @@
     }
 }
 }
-@media (min-width: 575px) and (max-width: 767px){
-    .project-content{
-        &:nth-child(4) {
-            margin-bottom: 24px !important;
-        }
-        &:nth-child(5) {
-            margin-bottom: 24px !important;
+@media (max-width: 767px){
+    .project{
+        padding: 50px 0;
+        h4{
+            font-size: 32px;
+            line-height: 42px;
+            margin-bottom: 50px;
         }
     }
-}
-@media (min-width: 320px) and (max-width: 574px){
     .project-content{
         &:nth-child(4) {
             margin-bottom: 24px !important;

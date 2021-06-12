@@ -46,7 +46,8 @@
 @media (min-width: 575px) and (max-width: 767px){
     .header{
         &-content{
-            display: inline-block;
+            display: flex;
+            flex-direction: column;
             .logo{
                 display: flex;
                 justify-content: center;
@@ -56,28 +57,16 @@
         }
     }
 }
-@media (min-width: 420px) and (max-width: 574px){
+@media (max-width: 574px){
     .header{
         &-content{
-            display: inline-block;
+            display: flex;
+            flex-direction: column;
             .logo{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                margin-bottom: 20px;
-            }
-        }
-    }
-}
-@media (max-width: 420px){
-    .header{
-        &-content{
-            display: inline-block;
-            .logo{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin-bottom: 20px;
+                margin-bottom: 15px;
             }
             &-menu{
                 ul{

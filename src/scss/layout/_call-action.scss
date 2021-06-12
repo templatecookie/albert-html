@@ -92,31 +92,7 @@
         }
     }
 }
-@media (min-width: 420px) and (max-width: 574px){
-    .call-action-content{
-        h4{
-            font-size: 18px;
-            line-height: 30px;
-        }
-        a{
-            font-size: 15px;
-            font-weight: 500;
-        }
-        .call-ac-shape-1{
-            display: none;
-        }
-        .call-ac-dot-1{
-            display: none;
-        }
-        .call-ac-dot-2{
-            display: none;
-        }
-        .call-ac-shape-2{
-            display: none;
-        }
-    }
-}
-@media (max-width: 420px){
+@media (max-width: 574px){
     .call-action-content{
         h4{
             font-size: 18px;

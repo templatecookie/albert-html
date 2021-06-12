@@ -111,27 +111,14 @@
         }
     }
 }
-@media (min-width: 420px) and (max-width: 574px){
-    .testomonial{
-        padding: 50px 0;
-        &-content{
-            &-right{
-                margin-top: 20px;
-                h4{
-                    font-size: 18px;
-                    line-height: 36px;
-                }
-            }
-        }
-    }
-}
-@media (max-width: 420px){
+@media (max-width: 574px){
     .testomonial{
         padding: 50px 0;
         &-content{
             h3{
                 font-size: 32px;
                 line-height: 42px;
+                margin-bottom: 50px;
             }
             &-right{
                 margin-top: 20px;

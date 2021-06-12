@@ -28,7 +28,6 @@
             }
             .follow-content{
                 margin-top: 200px;
-                // align-self: flex-end;
                 span{
                     font-size: 16px;
                     font-weight: 400;
@@ -77,13 +76,17 @@
     .banner{
         &-content{
             &-left{
-                margin-bottom: 100px;
+                margin-bottom: 50px;
                 h3{
                     font-size: 62px;
                     line-height: 70px;
+                    margin-top: 25px;
                 }
                 .follow-content{
-                    margin-top: 50px;
+                    margin-top: 30px;
+                    &-social{
+                        margin-bottom: 0;
+                    }
                 }
             }
             &-right{
@@ -100,13 +103,19 @@
         margin-bottom: 50px;
         &-content{
             &-left{
-                margin-bottom: 100px;
                 h3{
                     font-size: 50px;
                     line-height: 60px;
+                    margin-top: 25px;
+                }
+                p{
+                    margin: 25px 0;
                 }
                 .follow-content{
-                    margin-top: 50px;
+                    margin-top: 30px;
+                    &-social{
+                        margin-bottom: 0;
+                    }
                 }
             }
             &-right{
@@ -118,18 +127,31 @@
         }
     }
 }
-@media (min-width: 420px) and (max-width: 574px){
+@media (max-width: 574px){
     .banner{
         margin-bottom: 50px;
         &-content{
             &-left{
-                margin-bottom: 100px;
                 h3{
-                    font-size: 45px;
-                    line-height: 60px;
+                    font-size: 30px;
+                    line-height: 40px;
+                    margin-top: 20px;
+                }
+                p{
+                    margin: 25px 0px;
+                }
+                .btn{
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+                .btn--primary{
+                    margin-right: 10px;
                 }
                 .follow-content{
-                    margin-top: 50px;
+                    margin-top: 30px;
+                    &-social{
+                        margin-bottom: 0;
+                    }
                 }
             }
             &-right{
@@ -140,28 +162,27 @@
         }
     }
 }
-@media (max-width: 420px){
-    .banner{
-        margin-bottom: 50px;
-        &-content{
-            &-left{
-                margin-bottom: 100px;
-                h3{
-                    font-size: 35px;
-                    line-height: 50px;
-                }
-                .btn{
-                    padding: 0 25px;
-                }
-                .follow-content{
-                    margin-top: 50px;
-                }
-            }
-            &-right{
-                .dot-shadow-img{
-                    right: 0;
-                }
-            }
-        }
-    }
-}
+// @media (max-width: 420px){
+//     .banner{
+//         margin-bottom: 50px;
+//         &-content{
+//             &-left{
+//                 h3{
+//                     font-size: 35px;
+//                     line-height: 50px;
+//                 }
+//                 .btn{
+//                     padding: 0 25px;
+//                 }
+//                 .follow-content{
+//                     margin-top: 30px;
+//                 }
+//             }
+//             &-right{
+//                 .dot-shadow-img{
+//                     right: 0;
+//                 }
+//             }
+//         }
+//     }
+// }

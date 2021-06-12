@@ -44,11 +44,9 @@
             h3{
                 color: $gray_900;
                 margin-bottom: 0;
-                max-width: 672px;
             }
             p{
                 margin-top: 20px;
-                max-width: 672px;
             }
             .project-document{
                 display: flex;
@@ -128,12 +126,21 @@
                         );
                 }
             }
+            &-right{
+                .project-document{
+                    margin: 15px 0;
+                    h2{
+                        font-size: 30px;
+                    }
+                }
+            }
         }
     }
 }
 @media (min-width: 575px) and (max-width: 767px){
     .about{
         &-content{
+            padding-bottom: 50px;
             &-left{
                 margin-bottom: 50px;
                 .about-black-dot{
@@ -152,18 +159,38 @@
                     line-height: 40px;
                 }
                 .project-document{
+                    margin: 15px 0;
                     h2{
-                        font-size: 40px;
-                        line-height: 50px;
+                        font-size: 32px;
+                        line-height: 42px;               
+                    }
+                    span{
+                        font-size: 14px;
+                    }
+                    .project-year{
+                        flex-direction: column;
+                        align-items: flex-start;
+                        margin-right: 0;
+                        h2{
+                            margin-right: 0;
+                          }
+                    }
+                    .project-completed{
+                        flex-direction: column;
+                        align-items: flex-start;
+                        h2{
+                          margin-right: 0;
+                        }
                     }
                 }
             }
         }
     }
 }
-@media (min-width: 420px) and (max-width: 574px){
+@media (max-width: 574px){
     .about{
         &-content{
+            padding-bottom: 50px;
             &-left{
                 margin-bottom: 50px;
                 .about-black-dot{
@@ -182,49 +209,33 @@
                     line-height: 40px;
                 }
                 .project-document{
+                    margin: 15px 0;
                     h2{
-                        font-size: 40px;
-                        line-height: 50px;
-                        margin-right: 10px;
+                        font-size: 32px;
+                        line-height: 42px;               
+                    }
+                    span{
+                        font-size: 14px;
                     }
                     .project-year{
-                        margin-right: 25px;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        margin-right: 0px;
+                        h2{
+                            margin-right: 0;
+                          }
+                    }
+                    .project-completed{
+                        flex-direction: column;
+                        align-items: flex-start;
+                        h2{
+                            margin-right: 0;
+                          }
                     }
                 }
-            }
-        }
-    }
-}
-@media (max-width: 420px){
-    .about{
-        &-content{
-            &-left{
-                margin-bottom: 50px;
-                .about-black-dot{
-                    display: none;
-                }
-                .about-white-shadow{
-                    display: none;
-                }
-                .lg-round-shape{
-                    display: none;
-                }
-            }
-            &-right{
-                h3{
-                    font-size: 30px;
-                    line-height: 40px;
-                }
-                .project-document{
-                    display: inline-block;
-                    h2{
-                        font-size: 40px;
-                        line-height: 50px;
-
-                    }
-                    .project-year{
-                        margin-bottom: 20px;
-                    }
+                .btn--primary{
+                    font-size: 15px;
+                    font-weight: 500;
                 }
             }
         }
