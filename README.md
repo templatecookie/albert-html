@@ -1,5 +1,5 @@
-# [lomeyolabs.com](https://lomeyolabs.com)
-FREE UI & HTML Templates for Designer and Developer. Lomeyo Labs is a place where a team of design & developers create beautiful templates. Visit [lomeyolabs.com](https://lomeyolabs.com) for more updates.
+# [templatecookie.com](https://templatecookie.com)
+FREE UI & HTML Templates for Designer and Developer. Lomeyo Labs is a place where a team of designers & developers create beautiful templates. Visit [templatecookie.com](https://templatecookie.com) for more updates.
 
 # Webpack Boilerplate
 This repository contains Webpack and SCSS boilerplate code to quickly get started on building a webpage following a simplified version of SASS (7-1 pattern).
